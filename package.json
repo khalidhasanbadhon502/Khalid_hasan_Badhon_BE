@@ -1,11 +1,11 @@
 {
   "name": "portfolio-backend",
   "version": "1.0.0",
-  "description": "Portfolio Backend Server with Express, Mongoose, and TypeScript",
-  "main": "server.ts",
+  "description": "Portfolio Backend Server with Express, MySQL and TypeScript",
+  "main": "dist/server.js",
   "scripts": {
-    "start": "node dist/server.js",
     "build": "tsc",
+    "start": "node dist/server.js",
     "dev": "ts-node server.ts"
   },
   "keywords": [],
@@ -15,7 +15,6 @@
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^4.21.0",
-    "mongoose": "^8.6.2",
     "mysql2": "^3.24.4",
     "nodemailer": "^10.0.9"
   },
